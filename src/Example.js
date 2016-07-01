@@ -10,8 +10,8 @@ class Example extends React.Component{
 
 	render(){
 		return (<Carousel>
-				<div><img src="/beautiful_nature.jpg" /></div>
-				<div><img src="city_night.jp"/></div>
+				<div><img src="src/images/beautiful_nature.jpg" /></div>
+				<div><img src="src/images/city_night.jpg"/></div>
 			</Carousel>)
 	}
 }

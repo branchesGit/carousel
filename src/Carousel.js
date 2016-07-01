@@ -19,8 +19,9 @@ class Carousel extends React.Component{
 		super( props );
 	}
 
-	renderItem( idx, item){
+	renderItem( item, idx){
 		console.log( idx, item );
+		return item;
 	}
 
 	render(){
