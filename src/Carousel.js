@@ -1,7 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-var _extend = Object.assign || function(){}
+var _extend = Object.assign || function _extend(target){ 
+	for( var i = 1, len = arguments.length; i < len; i++ ){
+		var source = arguments[i];
+		for( var prop in obj ){
+			if( Object.prototype.hasOwnProperty.call(source, key) ){
+				target[key] = source[key];
+			}
+		}
+	}
+};
+
 let classnames = require('classnames');
 
 class Carousel extends React.Component{
