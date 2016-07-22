@@ -1,0 +1,25 @@
+html, body, div, h1, h2, h3, ul, li{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+
+.slick-prev:before, .slick-next:before{
+	color: #000;
+}
+
+.slick-slide{
+	
+	text-align: center;
+}
+
+.slick-slide h3{
+	margin: 10px;
+	background: gray;
+}

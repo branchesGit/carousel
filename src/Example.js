@@ -8,13 +8,13 @@ class Example extends React.Component{
 		super( props );
 	}
 
-	render(){
-		return (<Carousel>
-				<div><img src="src/images/beautiful_nature.jpg" /></div>
-				<div><img src="src/images/city_night.jpg"/></div>
-			</Carousel>)
-	}
-}
+  render(){   
+    return (<Carousel>  
+    <div style={{"width":"100%"}}><img
+src="src/images/beautiful_nature.jpg" /></div> 
+<div style={{"width":"100%"}}
+><img src="src/images/city_night.jpg"/></div>
+</Carousel>)   } }
 
 
 module.exports = Example;

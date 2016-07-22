@@ -2,6 +2,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-var Example = require('./Example');
+var Ins = require( './pages/Setting/SubjectZuhe' );
 
-ReactDOM.render(<Example />, document.getElementById('carousel'));
+ReactDOM.render(<Ins />, document.getElementById('nav'));
